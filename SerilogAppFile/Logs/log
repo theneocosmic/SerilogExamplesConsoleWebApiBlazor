@@ -1,0 +1,13 @@
+2021-07-18 11:25:19.579 -05:00 [INF] Hello ext.david.dzul!
+2021-07-18 11:25:19.590 -05:00 [WRN] Yo should not be allowed here
+2021-07-18 11:25:24.448 -05:00 [ERR] Something went wrong
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SerilogAppFile.Program.ThrowError() in C:\Users\ext.david.dzul\source\repos\SerilogAppFile\Program.cs:line 35
+   at SerilogAppFile.Program.Main(String[] args) in C:\Users\ext.david.dzul\source\repos\SerilogAppFile\Program.cs:line 21
+2021-07-18 11:27:29.878 -05:00 [DBG] Application is startating...
+2021-07-18 11:27:29.896 -05:00 [INF] Hello ext.david.dzul!
+2021-07-18 11:27:29.897 -05:00 [WRN] Yo should not be allowed here
+2021-07-18 11:27:32.586 -05:00 [ERR] Something went wrong
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SerilogAppFile.Program.ThrowError() in C:\Users\ext.david.dzul\source\repos\SerilogAppFile\Program.cs:line 36
+   at SerilogAppFile.Program.Main(String[] args) in C:\Users\ext.david.dzul\source\repos\SerilogAppFile\Program.cs:line 22

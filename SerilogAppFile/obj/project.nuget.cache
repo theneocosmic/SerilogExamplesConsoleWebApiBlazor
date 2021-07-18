@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mu5OL7Ic/nF3+/pWb/XyXWplpUdkBG5O93dpXzSvNv6b2maXdf9Ztry7TKQW+4SR8uW+AugDZQugHMsS5Z9Ifw==",
+  "success": true,
+  "projectFilePath": "C:\\GithubNeocosmic\\SerilogTest\\SerilogAppFile\\SerilogAppFile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ext.david.dzul\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\ext.david.dzul\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

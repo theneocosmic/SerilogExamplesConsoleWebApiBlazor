@@ -1,0 +1,36 @@
+﻿@page "/counter"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        try
+        {
+            Log.Debug("Application is startating...");
+            Log.Information("Hello {Name}!", Environment.GetEnvironmentVariable("USERNAME"));
+            Log.Warning("Yo should not be allowed here");
+
+            ThrowError();
+        }
+        catch (Exception e)
+        {
+
+            Log.Error(e, "Something went wrong");
+        }
+        Log.CloseAndFlush();
+
+        currentCount++;
+    }
+
+    void ThrowError()
+    {
+        throw new NullReferenceException();
+    }
+}
